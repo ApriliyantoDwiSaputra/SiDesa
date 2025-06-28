@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\LoginController;
 use App\Http\Controllers\ResidentController;
 
 Route::get('/', [LoginController::class, 'showLoginPage'])->name('login');
